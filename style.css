@@ -1,0 +1,44 @@
+.urun {
+    width: 33%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+h4 {
+    display: none;
+}
+
+.urunresmi {
+    position: relative;
+}
+
+.urun span {
+    background-color: rgb(151, 105, 21);
+    color: white;
+    padding: 8px;
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 768px) {
+    .katalog {
+        flex-direction: column;
+    }
+    .urun {
+        width: 100%;
+    }
+    h4 {
+        display: block;
+    }
+}
