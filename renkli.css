@@ -1,0 +1,22 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 50%;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    line-height: 25px;
+    padding-left: 7px;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    background-color: red;
+    padding-left: 15px;
+}
